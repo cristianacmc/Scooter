@@ -24,6 +24,15 @@ SECRET_KEY = '8&0uynetabteye)xehk5t6^(rmnunbf2_*aj)u^6+#s5a@ih8j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+TEMPLATE_DEBUG = DEBUG
+
+ADMINS = (
+    ('Cristiana Costa', 'cristianacmc@gmail.com'),
+)
+
+MANAGERS = (
+    ('Cristiana Costa', 'cristianacmc@gmail.com'),
+)
 
 ALLOWED_HOSTS = []
 
