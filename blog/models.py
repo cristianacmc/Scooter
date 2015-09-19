@@ -17,9 +17,9 @@ class categoria(models.Model):
         return self.nome
 
 class Post(models.Model):
+    categorias = models.ManyToManyField(categoria)
     titulo = models.CharField(max_length=200)
     texto = models.TextField()
-    categorias = models.ManyToManyField(categoria)
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
 
