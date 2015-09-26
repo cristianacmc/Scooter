@@ -33,23 +33,24 @@
       </div>
     </div>
 
-    <div class="content.container">
-      <h2>Pilotando com Estilo e Segurança</h2>
-        <div class="row">
-          <div class="col-md-4">
+    <div class="guides">
+      <div class="container">
+        <h2>Pilotando com Estilo e Segurança</h2>
+         <div class="row">
+           <div class="col-md-4">
             {% for post in posts %}
               <div class="post">
-                <div class="data">
-                  {{ post.published_date }}
-                  {{ post.categorias }}
-                </div>
                 <h4><a href="">{{ post.titulo }}</a></h4>
-                <p>{{ post.texto|linebreaks }}</p>
-             </div>
+                  <p>{{ post.texto}}</p>
+              </div>
+                 <div class="data">
+                   {{ post.published_date }}
+                </div>
             {% endfor %}
           </div>
         </div>
 
+        
       </div>
     </div>
 
