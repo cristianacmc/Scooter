@@ -25,41 +25,51 @@
 }
 .jumbotron .container h1{
   color: #FF6347;
-  font-size: 48px;
-  font-family: 'Shift',sans-serif;
-  font-weight: bold;
+  font-size: 60px;
+  font-family: 'Lobster';
 }
 
 .jumbotron p{
-  font-size: 25px;
+  font-size: 22px;
   font-family: verdana, arial;
   color: #fff;
 }
 
+.jumbotron h3 {
+   border: 3px;
+   background-color: dark gray;
+   color: #0000FF;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   letter-spacing: 1.3px;
+   text-decoration: none;
+   text-transform: uppercase;
+}
 
-.estilo{
+.content{
   background-color:#efefef;
   border-bottom: 1px solid #dbdbdb;
 }
-.estilo h2 {
+
+.content h2 {
   color: #393c3d;
   font-size: 24px;
+  font-family: sans-serif;
 }
 
-.estilo a{
+.content a{
   text-align: center;
 }
 
-
-.learn-more {
-  background-color: #f7f7f7;
+.data {
+    float: right;
+    color: #828282;
 }
 
-.learn-more h3 {
-  font-family: sans-serif;
-  font-size: 18px;
-  font-weight: bold;
+.post {
+    margin-bottom: 70px;
 }
-.learn-more a{
-  color: #00b0ff;
+.post h4 a, .post h4 a:visited {
+    color: #000000;
 }
