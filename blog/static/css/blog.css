@@ -56,10 +56,10 @@
     font-size: 24px;
 }
 
-.data {
+.post h6 {
     position: relative;
-    left:200px;
-    top: px;
+    top:px;
+    left:190px;
     font-size: 10px;
     color: #828282;
   }
