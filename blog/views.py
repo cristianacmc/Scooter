@@ -28,9 +28,11 @@ def post_new(request):
 
 def post_edit(request, pk):
     post = get_object_or_404(Post, pk=pk)
-    if request.method == "Post":
-        form= PostForm(request.Post, instance=post)
+    if request.method == "POST":
+        form= PostForm(request.POST, instance=post)
         if form.is_valid():
+            post = form.save(commit=False)
+            post.categorias = request
             post.save()
             return redirect('blog.views.post_detail', pk=post.pk)
     else:
