@@ -5,7 +5,14 @@
     padding: 14px 10px;
     padding-top: 20px;
     text-transform: uppercase;
+    text-decoration: none;
 }
+
+.nav a:hover{
+    color: white;
+    background-color: #505050;
+  }
+
 .nav li{
   display: inline;
   position: relative;
@@ -35,7 +42,7 @@
   color: #fff;
 }
 
-.jumbotron h3 {
+.jumbotron a {
    border: 3px;
    background-color: dark gray;
    color: #0000FF;
@@ -56,18 +63,44 @@
     font-size: 24px;
 }
 
-.post h6 {
-    position: relative;
-    top:px;
-    left:190px;
-    font-size: 10px;
+.btn {
+    float: right;
+}
+
+.page-header h5{
+    color: black;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+.date {
+    float: right;
     color: #828282;
-  }
+}
 
+.post {
+    margin-bottom: 70px;
+}
+.save {
+    float: right;
+}
 
-.post h4 {
-    margin-top: 40px;
+.post-form textarea, .post-form input {
+    width: 100%;
 }
 .post h4 a, .post h4 a:visited {
+    text-decoration: none;
     color: #000000;
+}
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: black;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+    margin-top: -15px;
+}
+
+.top-menu p{
+  font-size: 8px;
+
 }
