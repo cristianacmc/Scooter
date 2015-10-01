@@ -42,7 +42,7 @@
   color: #fff;
 }
 
-.jumbotron a {
+.jumbotron .container a {
    border: 3px;
    background-color: dark gray;
    color: #0000FF;
@@ -58,29 +58,65 @@
     background-color: #efefef;
     border-bottom: 1px solid #dbdbdb;
 }
-.guides h2{
+.guides .container {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.guides .container h2{
     color: #393c3d;
-    font-size: 24px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
-.btn {
+.row h4{
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+.row p{
+  margin-top: 15px;
+}
+
+.data{
+  color: #828282;
+  font-size: 13px;
+  margin-top: 40px;
+}
+
+.edite{
+  float:right;
+  font-size: 8px;
+}
+
+.bloq{
+  float: right;
+  font-size: 15px;
+}
+
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: black;
     float: right;
 }
-
-.page-header h5{
+.top-menu{
+  padding-right: 8px;
+}
+.top-menu p{
+  font-size: 10px;
+}
+.page-header h4{
     color: black;
-    font-size: 36pt;
     text-decoration: none;
 }
 
-.date {
-    float: right;
-    color: #828282;
+.post {
+    margin-bottom: 0px;
+}
+.post p{
+    font-size:13px;
 }
 
-.post {
-    margin-bottom: 70px;
-}
 .save {
     float: right;
 }
@@ -92,15 +128,8 @@
     text-decoration: none;
     color: #000000;
 }
-.top-menu, .top-menu:hover, .top-menu:visited {
-    color: black;
-    float: right;
-    font-size: 26pt;
-    margin-right: 20px;
-    margin-top: -15px;
-}
 
-.top-menu p{
-  font-size: 8px;
-
+.comment {
+    margin: 0px 0px 50px 0px;
+    font-size: 13px;
 }
